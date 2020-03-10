@@ -22,7 +22,7 @@ import {
 import {
   TouchableNativeFeedback,
   TouchableOpacity,
- } from 'react-native-gesture-handler'
+} from 'react-native-gesture-handler'
 
 import BorderlessButton, { BorderlessButtonProps } from './BorderlessButton'
 
@@ -66,10 +66,11 @@ export default class TouchableItem extends React.Component<TouchableItemProps> {
           {...rest}
           style={null}
           background={{
-            type: "Ripple",
+            type: 'Ripple',
             color: this.props.pressColor,
-            borderless: this.props.borderless
-          }}>
+            borderless: this.props.borderless,
+          }}
+        >
           <View style={style}>{React.Children.only(this.props.children)}</View>
         </TouchableNativeFeedback>
       )
