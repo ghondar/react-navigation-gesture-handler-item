@@ -10,6 +10,6 @@
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true
   },
-  "include": ["src", "global.d.ts"],
+  "include": ["global.d.ts", "src"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }
