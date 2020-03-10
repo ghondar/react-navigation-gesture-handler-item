@@ -10,8 +10,6 @@
 import React from 'react'
 import {
   Platform,
-  TouchableNativeFeedback,
-  TouchableOpacity,
   View,
   ViewStyle,
   StyleProp,
@@ -20,6 +18,11 @@ import {
   GestureResponderEvent,
   Insets,
 } from 'react-native'
+
+import {
+  TouchableNativeFeedback,
+  TouchableOpacity,
+ } from 'react-native-gesture-handler'
 
 import BorderlessButton, { BorderlessButtonProps } from './BorderlessButton'
 
